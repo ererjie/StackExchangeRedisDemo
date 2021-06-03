@@ -1,12 +1,17 @@
-﻿using System;
+﻿using StackExchange.Redis;
+using System;
 using System.Threading;
 
 namespace StackExchangeRedisDemo
 {
+    
+    
     class Program
     {
         static void Main(string[] args)
         {
+            
+
             RedisTest();
         }
         public static void RedisTest()
